@@ -1,0 +1,26 @@
+//creativetabs
+itemGroup.bioweapontab=Tools and Weapons
+itemGroup.bioblocktab=Blocks
+itemGroup.biomisctab=Miscellaneous
+
+//items
+item.adamantite_ore.name=Adamantite Ore
+item.ingot_adamantite.name=Adamantite Ingot
+item.amethyst.name=Amethyst
+
+//blocks
+tile.ore_adamantite.name=Adamantite Ore
+tile.block_adamantite.name=Adamantite Block
+
+//tools
+item.adamantite_sword.name=Adamantite Sword
+item.adamantite_spade.name=Adamantite Shovel
+item.adamantite_pickaxe.name=Adamantite Pickaxe
+item.adamantite_axe.name=Adamantite Axe
+item.adamantite_hoe.name=Adamantite Hoe
+
+//armor
+item.adamantite_helmet.name=Adamantite Helmet
+item.adamantite_chestplate.name=Adamantite Chestplate
+item.adamantite_leggings.name=Adamantite Legggings
+item.adamantite_boots.name=Adamantite Boots

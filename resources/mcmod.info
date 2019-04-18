@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bioores",
+  "name": "Bio's Ores and Gems",
+  "description": "Adds Ores and Gems to the game",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BioFan90"],
+  "credits": "The Forge and FML guys, for making the example apck this was made from.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
