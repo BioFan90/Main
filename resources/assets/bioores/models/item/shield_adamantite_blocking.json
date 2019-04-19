@@ -1,0 +1,9 @@
+{
+    "parent":"builtin/generated",
+    
+     "textures": 
+     {
+        "layer0": "bioores:entity/shield_adamantite"
+     }
+
+}

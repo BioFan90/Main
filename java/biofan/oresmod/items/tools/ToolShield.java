@@ -32,7 +32,7 @@ import biofan.oresmod.Main;
 import biofan.oresmod.init.ModItems;
 import biofan.oresmod.util.interfaces.IHasModel;
 
-public class ToolShield extends Item implements IHasModel{
+public class ToolShield extends ItemShield implements IHasModel{
 	public ToolShield(String name, CreativeTabs tab, int maxDamage){
         this.maxStackSize = 1;
         this.setUnlocalizedName(name);

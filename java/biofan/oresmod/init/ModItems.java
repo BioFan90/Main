@@ -46,13 +46,15 @@ public class ModItems
 	public static final ItemPickaxe ADAMANTITE_PICKAXE = new ToolPickaxe("adamantite_pickaxe", MATERIAL_ADAMANTITE);
 	public static final ItemAxe ADAMANTITE_AXE = new ToolAxe("adamantite_axe", MATERIAL_ADAMANTITE);
 	public static final ItemHoe ADAMANTITE_HOE = new ToolHoe("adamantite_hoe", MATERIAL_ADAMANTITE);
-	public static final Item ADAMANTITE_SHIELD = new ToolShield("adamantite_shield", Main.biotooltab, 800);
+	
 	
 	//Armor
 	public static final Item ADAMANTITE_HELMET = new ArmorBase("adamantite_helmet", ARMOR_MATERIAL_ADAMANTITE, 1, EntityEquipmentSlot.HEAD);
 	public static final Item ADAMANTITE_CHESTPLATE = new ArmorBase("adamantite_chestplate", ARMOR_MATERIAL_ADAMANTITE, 1, EntityEquipmentSlot.CHEST);
 	public static final Item ADAMANTITE_LEGGINGS = new ArmorBase("adamantite_leggings", ARMOR_MATERIAL_ADAMANTITE, 2, EntityEquipmentSlot.LEGS);
 	public static final Item ADAMANTITE_BOOTS = new ArmorBase("adamantite_boots", ARMOR_MATERIAL_ADAMANTITE, 1, EntityEquipmentSlot.FEET);
-	//public static final Item ADAMANTITE_SHIELD = new ArmorBase("adamantite_shield", ARMOR_MATERIAL_ADAMANTITE);
+	
+	//Shields
+	public static final Item SHIELD_ADAMANTITE = new ToolShield("shield_adamantite", Main.biotooltab, 800);
 
 }

@@ -24,3 +24,6 @@ item.adamantite_helmet.name=Adamantite Helmet
 item.adamantite_chestplate.name=Adamantite Chestplate
 item.adamantite_leggings.name=Adamantite Legggings
 item.adamantite_boots.name=Adamantite Boots
+
+//shields
+item.shield_adamantite.name=Adamantite Shield

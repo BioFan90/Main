@@ -49,7 +49,7 @@ public class RegistryHandler
 	
 	public static void otherRegistries()
 	{
-		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 	}
 	
 	
