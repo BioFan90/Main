@@ -3,12 +3,14 @@ package biofan.oresmod.util.handlers;
 import biofan.oresmod.init.ModBlocks;
 import biofan.oresmod.init.ModItems;
 import biofan.oresmod.util.interfaces.IHasModel;
+import biofan.oresmod.world.ModWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler 
@@ -43,6 +45,11 @@ public class RegistryHandler
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
 	}
 	
 	

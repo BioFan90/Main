@@ -1,7 +1,7 @@
 //creativetabs
-itemGroup.bioweapontab=Tools and Weapons
-itemGroup.bioblocktab=Blocks
-itemGroup.biomisctab=Miscellaneous
+itemGroup.bioweapontab=Bio Combat
+itemGroup.bioblocktab=Bio Blocks
+itemGroup.biomisctab=Bio Misc
 
 //items
 item.adamantite_ore.name=Adamantite Ore

@@ -6,6 +6,7 @@ import biofan.oresmod.tabs.BioBlockTab;
 import biofan.oresmod.tabs.BioMiscTab;
 import biofan.oresmod.tabs.BioWeaponTab;
 import biofan.oresmod.util.Reference;
+import biofan.oresmod.util.handlers.RegistryHandler;
 import biofan.oresmod.world.ModWorldGen;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -34,7 +35,7 @@ public class Main
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) 
 	{
-		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+		RegistryHandler.otherRegistries();
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 

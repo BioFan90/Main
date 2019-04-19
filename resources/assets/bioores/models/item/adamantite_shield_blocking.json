@@ -1,0 +1,8 @@
+{
+    "parent":"items/handheld",
+     "textures": 
+     {
+        "layer0": "bioores:items/shield_adamantite"
+     }
+
+}

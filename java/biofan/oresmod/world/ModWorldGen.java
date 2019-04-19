@@ -16,50 +16,53 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class ModWorldGen implements IWorldGenerator 
 {
+	private WorldGenerator ore_adamantite;
+	
+	public ModWorldGen()
+	{
+		ore_adamantite = new WorldGenMinable(ModBlocks.ORE_ADAMANTITE.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+	}
 
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) 
 	{
-		if (world.provider.getDimension() == 0) 
-		{ // the overworld
-			generateOverworld(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
+		switch(world.provider.getDimension())
+		{
+		case -1:
+			
+			runGenerator(ore_adamantite, world, random, chunkX, chunkZ, 25, 3, 50);
+			
+			break;
+			
+		case 0:
+			
+			//generateOre();
+			
+			break;
+			
+		case 1:
+			
+			//generateOre();
+			
+			break;
+			
+			
 		}
-		
-		if (world.provider.getDimension() == -1) 
-		{ // the nether
-			generateNether(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
-		}
-		
-		if (world.provider.getDimension() == 1) 
-		{ // the end
-			generateEnd(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
-		}
 	}
-	
-	private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) 
+
+	private void runGenerator(WorldGenerator gen, World world, Random rand, int chunkX, int chunkZ, int chance, int minY, int maxY) 
 	{
+		if (minY > maxY || minY < 0 || maxY > 256) throw new IllegalArgumentException("Ore generated out of bounds");
 		
-	}
-	
-	private void generateNether(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) 
-	{
-		generateOre(ModBlocks.ORE_ADAMANTITE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 1000);
-	}
-	
-	private void generateEnd(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) 
-	{
-		
-	}
-	
-	private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) 
-	{
 		int deltaY = maxY - minY;
+		
+		for (int i = 0; i < chance; i++) 
+		{
+			int x = chunkX * 16 + rand.nextInt(16);
+			int y = minY + rand.nextInt(deltaY);
+			int z = chunkZ * 16 + rand.nextInt(16);
 	
-		for (int i = 0; i < chances; i++) {
-			BlockPos pos = new BlockPos(x + random.nextInt(16), minY + random.nextInt(deltaY), z + random.nextInt(16));
-	
-			WorldGenMinable generator = new WorldGenMinable(ore, size);
-			generator.generate(world, random, pos);
+			gen.generate(world, rand, new BlockPos(x,y,z));
 		}
 	}
 	

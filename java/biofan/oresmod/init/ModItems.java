@@ -3,11 +3,13 @@ package biofan.oresmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import biofan.oresmod.Main;
 import biofan.oresmod.items.ItemBase;
 import biofan.oresmod.items.armor.ArmorBase;
 import biofan.oresmod.items.tools.ToolAxe;
 import biofan.oresmod.items.tools.ToolHoe;
 import biofan.oresmod.items.tools.ToolPickaxe;
+import biofan.oresmod.items.tools.ToolShield;
 import biofan.oresmod.items.tools.ToolSpade;
 import biofan.oresmod.items.tools.ToolSword;
 import biofan.oresmod.util.Reference;
@@ -44,6 +46,7 @@ public class ModItems
 	public static final ItemPickaxe ADAMANTITE_PICKAXE = new ToolPickaxe("adamantite_pickaxe", MATERIAL_ADAMANTITE);
 	public static final ItemAxe ADAMANTITE_AXE = new ToolAxe("adamantite_axe", MATERIAL_ADAMANTITE);
 	public static final ItemHoe ADAMANTITE_HOE = new ToolHoe("adamantite_hoe", MATERIAL_ADAMANTITE);
+	public static final Item ADAMANTITE_SHIELD = new ToolShield("adamantite_shield", Main.biotooltab, 800);
 	
 	//Armor
 	public static final Item ADAMANTITE_HELMET = new ArmorBase("adamantite_helmet", ARMOR_MATERIAL_ADAMANTITE, 1, EntityEquipmentSlot.HEAD);
