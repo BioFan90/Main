@@ -16,11 +16,12 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class ModWorldGen implements IWorldGenerator 
 {
-	private WorldGenerator ore_adamantite;
+	private WorldGenerator ore_adamantite, ore_cobalt;
 	
 	public ModWorldGen()
 	{
 		ore_adamantite = new WorldGenMinable(ModBlocks.ORE_ADAMANTITE.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_cobalt = new WorldGenMinable(ModBlocks.ORE_COBALT.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
 	}
 
 	@Override
@@ -36,7 +37,7 @@ public class ModWorldGen implements IWorldGenerator
 			
 		case 0:
 			
-			//generateOre();
+			runGenerator(ore_cobalt, world, random, chunkX, chunkZ, 25, 3, 40);
 			
 			break;
 			

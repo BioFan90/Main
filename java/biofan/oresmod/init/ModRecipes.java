@@ -7,6 +7,6 @@ public class ModRecipes
 {
 	public static void init()
 	{
-		GameRegistry.addSmelting(ModItems.ORE_ADAMANTITE, new ItemStack(ModItems.INGOT_ADAMANTITE, 1), 1.5f);
+		GameRegistry.addSmelting(ModItems.ORES_ADAMANTITE, new ItemStack(ModItems.INGOT_ADAMANTITE, 1), 1.5f);
 	}
 }

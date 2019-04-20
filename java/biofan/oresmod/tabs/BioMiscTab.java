@@ -17,7 +17,7 @@ public class BioMiscTab extends CreativeTabs
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(ModItems.ORE_ADAMANTITE);
+		return new ItemStack(ModItems.ORES_ADAMANTITE);
 	}
 	
 	

@@ -8,33 +8,23 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 
-public class AdamantiteOre extends BlockBase
+public class CobaltOre extends BlockBase
 {
 
-	public AdamantiteOre(String name, Material material) 
+	public CobaltOre(String name, Material material) 
 	{
 		super(name, material);
-		//when you run over it
 		setSoundType(SoundType.STONE);
-		//how long to break it
-		setHardness(10.0f);
-		//explosion damage threshold
+		setHardness(8.0f);
 		setResistance(45.0f);
-		//tool and level of tool
-		setHarvestLevel("pickaxe", 3);
-		//light emission
-		//setLightLevel(1.0f);
-		//for windows, essentially
-		//setLightOpacity(0);
-		//makes block unbreakable (bedrock)
-		//setBlockUnbreakable();
-		
+		setHarvestLevel("pickaxe", 2);
+				
 	}
 	
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune)
 	{
-		return ModItems.ORES_ADAMANTITE;
+		return ModItems.ORES_COBALT;
 	}
 	
 	@Override
