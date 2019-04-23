@@ -16,12 +16,14 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class ModWorldGen implements IWorldGenerator 
 {
-	private WorldGenerator ore_adamantite, ore_cobalt;
+	private WorldGenerator ore_adamantite, ore_cobalt,ore_gold_nether, ore_coal_nether;
 	
 	public ModWorldGen()
 	{
 		ore_adamantite = new WorldGenMinable(ModBlocks.ORE_ADAMANTITE.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		ore_cobalt = new WorldGenMinable(ModBlocks.ORE_COBALT.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
+		ore_gold_nether = new WorldGenMinable(ModBlocks.ORE_GOLD_NETHER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
+		ore_coal_nether = new WorldGenMinable(ModBlocks.ORE_COAL_NETHER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
 	}
 
 	@Override
@@ -31,19 +33,21 @@ public class ModWorldGen implements IWorldGenerator
 		{
 		case -1:
 			
-			runGenerator(ore_adamantite, world, random, chunkX, chunkZ, 25, 3, 50);
+			runGenerator(ore_adamantite, world, random, chunkX, chunkZ, 20, 3, 50);
+			runGenerator(ore_gold_nether, world, random, chunkX, chunkZ, 20, 3, 80);
+			runGenerator(ore_coal_nether, world, random, chunkX, chunkZ, 20, 3, 80);
 			
 			break;
 			
 		case 0:
 			
-			runGenerator(ore_cobalt, world, random, chunkX, chunkZ, 25, 3, 40);
+			runGenerator(ore_cobalt, world, random, chunkX, chunkZ, 20, 3, 50);
 			
 			break;
 			
 		case 1:
 			
-			//generateOre();
+			
 			
 			break;
 			

@@ -17,11 +17,11 @@ public class AdamantiteOre extends BlockBase
 		//when you run over it
 		setSoundType(SoundType.STONE);
 		//how long to break it
-		setHardness(10.0f);
+		setHardness(3f);
 		//explosion damage threshold
-		setResistance(45.0f);
+		setResistance(15f);
 		//tool and level of tool
-		setHarvestLevel("pickaxe", 3);
+		setHarvestLevel("pickaxe", 2);
 		//light emission
 		//setLightLevel(1.0f);
 		//for windows, essentially
