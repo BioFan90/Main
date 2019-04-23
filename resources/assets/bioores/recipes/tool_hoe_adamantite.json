@@ -3,9 +3,9 @@
     
     "pattern":
     [
-        "III",
-        "III",
-        "III"
+        "II",
+        " S",
+        " S"
     ],
     
     "key":
@@ -13,11 +13,16 @@
         "I":
         {
             "item": "bioores:ingot_adamantite"
-        }
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }        
     },
     
     "result":
     {
-        "item": "bioores:block_adamantite"
+        "item": "bioores:hoe_adamantite",
+        "count": 1
     }
 }

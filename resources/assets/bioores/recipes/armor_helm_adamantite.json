@@ -4,8 +4,7 @@
     "pattern":
     [
         "III",
-        "III",
-        "III"
+        "I I"
     ],
     
     "key":
@@ -18,6 +17,7 @@
     
     "result":
     {
-        "item": "bioores:block_adamantite"
+        "item": "bioores:helmet_adamantite",
+        "count": 1
     }
 }

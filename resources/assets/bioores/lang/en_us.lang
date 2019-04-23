@@ -15,26 +15,29 @@ tile.ore_adamantite.name=Adamantite Ore
 tile.block_adamantite.name=Adamantite Block
 
 tile.ore_cobalt.name=Cobalt Ore
-tile.block_adamantite.name=Cobalt Block
+tile.block_cobalt.name=Cobalt Block
+
+tile.ore_gold_nether.name=Fiery Gold Ore
+tile.ore_coal_nether.name=Fiery Coal Ore
 
 //tools
 item.sword_adamantite.name=Adamantite Sword
-item.spade_adamantite.name=Adamantite Shovel
+item.shovel_adamantite.name=Adamantite Shovel
 item.pickaxe_adamantite.name=Adamantite Pickaxe
 item.axe_adamantite.name=Adamantite Axe
 item.hoe_adamantite.name=Adamantite Hoe
 
 item.sword_cobalt.name=Cobalt Sword
-item.spade_cobalt.name=Cobalt Shovel
+item.shovel_cobalt.name=Cobalt Shovel
 item.pickaxe_cobalt.name=Cobalt Pickaxe
 item.axe_cobalt.name=Cobalt Axe
 item.hoe_cobalt.name=Cobalt Hoe
 
 //armor
-item.helmet_cobalt.name=Adamantite Helmet
-item.chestplate_cobalt.name=Adamantite Chestplate
-item.leggings_cobalt.name=Adamantite Legggings
-item.boots_cobalt.name=Adamantite Boots
+item.helmet_adamantite.name=Adamantite Helmet
+item.chestplate_adamantite.name=Adamantite Chestplate
+item.leggings_adamantite.name=Adamantite Legggings
+item.boots_adamantite.name=Adamantite Boots
 
 item.helmet_cobalt.name=Cobalt Helmet
 item.chestplate_cobalt.name=Cobalt Chestplate

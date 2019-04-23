@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "TC"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "bioores:ore_tin"
+        },
+        "C":
+        {
+            "item": "bioores:ore_copper"
+        }        
+    },
+    
+    "result":
+    {
+        "item": "bioores:dust_bronze",
+        "count": 2
+    }
+}

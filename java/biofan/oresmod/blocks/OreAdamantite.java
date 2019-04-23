@@ -8,10 +8,10 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 
-public class AdamantiteOre extends BlockBase
+public class OreAdamantite extends BlockBase
 {
 
-	public AdamantiteOre(String name, Material material) 
+	public OreAdamantite(String name, Material material) 
 	{
 		super(name, material);
 		//when you run over it

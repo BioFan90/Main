@@ -3,21 +3,20 @@
     
     "pattern":
     [
-        "III",
-        "III",
-        "III"
+        "B"
     ],
     
     "key":
     {
-        "I":
+        "B":
         {
-            "item": "bioores:ingot_adamantite"
+            "item": "bioores:block_adamantite"
         }
     },
     
     "result":
     {
-        "item": "bioores:block_adamantite"
+        "item": "bioores:ingot_adamantite",
+        "count": 9
     }
 }

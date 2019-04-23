@@ -40,21 +40,28 @@ public class ModItems
 	
 	//Items
 	public static final Item ORES_ADAMANTITE = new ItemBase ("ores_adamantite");
-	public static final Item INGOT_ADAMANTITE = new ItemBase ("ingot_adamantite");
 	public static final Item ORES_COBALT = new ItemBase ("ores_cobalt");
+	
+	public static final Item INGOT_ADAMANTITE = new ItemBase ("ingot_adamantite");
 	public static final Item INGOT_COBALT = new ItemBase ("ingot_cobalt");
+	public static final Item INGOT_COPPER = new ItemBase ("ingot_copper");
+	public static final Item INGOT_BRONZE = new ItemBase ("ingot_bronze");
+	
+	
+	public static final Item SULFUR = new ItemBase ("sulfur");
+	public static final Item DUST_BRONZE = new ItemBase ("dust_bronze");
 
 	//Tools
 	public static final ItemSword ADAMANTITE_SWORD = new ToolSword("sword_adamantite", MATERIAL_ADAMANTITE);
-	public static final ItemSpade ADAMANTITE_SHOVEL = new ToolSpade("shovel_adamantite", MATERIAL_ADAMANTITE);
 	public static final ItemPickaxe ADAMANTITE_PICKAXE = new ToolPickaxe("pickaxe_adamantite", MATERIAL_ADAMANTITE);
 	public static final ItemAxe ADAMANTITE_AXE = new ToolAxe("axe_adamantite", MATERIAL_ADAMANTITE);
+	public static final ItemSpade ADAMANTITE_SHOVEL = new ToolSpade("shovel_adamantite", MATERIAL_ADAMANTITE);
 	public static final ItemHoe ADAMANTITE_HOE = new ToolHoe("hoe_adamantite", MATERIAL_ADAMANTITE);
 	
 	public static final ItemSword COBALT_SWORD = new ToolSword("sword_cobalt", MATERIAL_COBALT);
-	public static final ItemSpade COBALT_SHOVEL = new ToolSpade("shovel_cobalt", MATERIAL_COBALT);
 	public static final ItemPickaxe COBALT_PICKAXE = new ToolPickaxe("pickaxe_cobalt", MATERIAL_COBALT);
 	public static final ItemAxe COBALT_AXE = new ToolAxe("axe_cobalt", MATERIAL_COBALT);
+	public static final ItemSpade COBALT_SHOVEL = new ToolSpade("shovel_cobalt", MATERIAL_COBALT);
 	public static final ItemHoe COBALT_HOE = new ToolHoe("hoe_cobalt", MATERIAL_COBALT);
 	
 	

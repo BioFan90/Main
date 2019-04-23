@@ -3,9 +3,8 @@
     
     "pattern":
     [
-        "III",
-        "III",
-        "III"
+        "I I",
+        "I I"
     ],
     
     "key":
@@ -18,6 +17,7 @@
     
     "result":
     {
-        "item": "bioores:block_adamantite"
+        "item": "bioores:boots_adamantite",
+        "count": 1
     }
 }
