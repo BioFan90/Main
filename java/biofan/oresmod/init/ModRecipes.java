@@ -15,5 +15,6 @@ public class ModRecipes
 		GameRegistry.addSmelting(ModBlocks.ORE_COAL_NETHER, new ItemStack(Items.COAL, 1), 1.5f);
 		GameRegistry.addSmelting(ModBlocks.ORE_GOLD_NETHER, new ItemStack(Items.GOLD_INGOT, 1), 1.5f);
 		GameRegistry.addSmelting(ModItems.DUST_BRONZE, new ItemStack(ModItems.INGOT_BRONZE, 1), 1.5f);
+		GameRegistry.addSmelting(ModBlocks.ORE_COPPER, new ItemStack(ModItems.INGOT_COPPER, 1), 1.5f);
 	}
 }

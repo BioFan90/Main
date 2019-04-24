@@ -16,19 +16,26 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class ModWorldGen implements IWorldGenerator 
 {
-	private WorldGenerator ore_adamantite, ore_cobalt,ore_gold_nether, ore_coal_nether, ore_copper, ore_tin, ore_nickel, ore_sulfur;
+	private WorldGenerator ore_adamantite, ore_cobalt,ore_gold_nether, ore_coal_nether, ore_copper, ore_tin, ore_nickel, 
+	ore_sulfur, ore_amethyst, ore_garnet, ore_onyx, ore_ruby, ore_saphire;
 	
 	public ModWorldGen()
 	{
 		ore_adamantite = new WorldGenMinable(ModBlocks.ORE_ADAMANTITE.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		ore_gold_nether = new WorldGenMinable(ModBlocks.ORE_GOLD_NETHER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		ore_coal_nether = new WorldGenMinable(ModBlocks.ORE_COAL_NETHER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_sulfur = new WorldGenMinable(ModBlocks.ORE_SULFUR_NETHER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_onyx = new WorldGenMinable(ModBlocks.ORE_ONYX.getDefaultState(), 1, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_garnet = new WorldGenMinable(ModBlocks.ORE_GARNET.getDefaultState(), 1, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		
 		ore_cobalt = new WorldGenMinable(ModBlocks.ORE_COBALT.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
 		ore_copper = new WorldGenMinable(ModBlocks.ORE_COPPER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
 		ore_tin = new WorldGenMinable(ModBlocks.ORE_TIN.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
 		ore_nickel = new WorldGenMinable(ModBlocks.ORE_NICKEL.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
-		ore_sulfur = new WorldGenMinable(ModBlocks.ORE_SULFUR_NETHER.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE));
+		
+		ore_amethyst = new WorldGenMinable(ModBlocks.ORE_AMETHYST.getDefaultState(), 1, BlockMatcher.forBlock(Blocks.END_STONE));
+		ore_ruby = new WorldGenMinable(ModBlocks.ORE_RUBY.getDefaultState(), 1, BlockMatcher.forBlock(Blocks.STONE));
+		ore_saphire = new WorldGenMinable(ModBlocks.ORE_SAPHIRE.getDefaultState(), 1, BlockMatcher.forBlock(Blocks.STONE));
 	}
 
 	@Override
@@ -39,9 +46,11 @@ public class ModWorldGen implements IWorldGenerator
 		case -1:
 			
 			runGenerator(ore_adamantite, world, random, chunkX, chunkZ, 20, 5, 50);
-			runGenerator(ore_gold_nether, world, random, chunkX, chunkZ, 20, 5, 120);
+			runGenerator(ore_gold_nether, world, random, chunkX, chunkZ, 20, 15, 60);
 			runGenerator(ore_coal_nether, world, random, chunkX, chunkZ, 30, 5, 120);
 			runGenerator(ore_sulfur, world, random, chunkX, chunkZ, 30, 5, 120);
+			runGenerator(ore_onyx, world, random, chunkX, chunkZ, 30, 5, 29);
+			runGenerator(ore_garnet, world, random, chunkX, chunkZ, 30, 5, 29);
 			
 			break;
 			
@@ -51,12 +60,14 @@ public class ModWorldGen implements IWorldGenerator
 			runGenerator(ore_copper, world, random, chunkX, chunkZ, 20, 5, 128);
 			runGenerator(ore_tin, world, random, chunkX, chunkZ, 20, 25, 67);
 			runGenerator(ore_nickel, world, random, chunkX, chunkZ, 20, 25, 67);
+			runGenerator(ore_ruby, world, random, chunkX, chunkZ, 30, 5, 29);
+			runGenerator(ore_saphire, world, random, chunkX, chunkZ, 30, 5, 29);
 			
 			break;
 			
 		case 1:
 			
-			
+			runGenerator(ore_amethyst, world, random, chunkX, chunkZ, 30, 5, 29);
 			
 			break;
 			

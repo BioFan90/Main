@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "bm:items/ruby"
+        "layer0": "bioores:items/ruby"
     }
 }

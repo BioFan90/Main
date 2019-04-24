@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "bm:block_saphire" }
+        "normal": { "model": "bioores:block_saphire" }
     }
 }

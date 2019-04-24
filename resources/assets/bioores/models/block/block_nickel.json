@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "bm:blocks/block_nickel"
+        "all": "bioores:blocks/block_nickel"
     }
 }

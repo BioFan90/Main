@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "bm:block_rose_quartz" }
+        "normal": { "model": "bioores:block_rose_quartz" }
     }
 }

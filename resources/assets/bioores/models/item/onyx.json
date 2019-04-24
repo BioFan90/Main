@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "bm:items/onyx"
+        "layer0": "bioores:items/onyx"
     }
 }
