@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        " I ",
+		"III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_tin"
+        },
+		"B":
+        {
+            "item": "bioores:block_tin"
+        }     		
+    },
+    
+    "result":
+    {
+        "item": "minecraft:anvil",
+        "count": 1
+    }
+}

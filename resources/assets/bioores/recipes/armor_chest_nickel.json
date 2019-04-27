@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "I I",
+        "III",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_nickel"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:chestplate_nickel",
+        "count": 1
+    }
+}

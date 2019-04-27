@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_cobalt"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:ingot_cobalt",
+        "count": 9
+    }
+}
