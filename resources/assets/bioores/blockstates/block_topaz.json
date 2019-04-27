@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "bm:block_topaz" }
+        "normal": { "model": "bioores:block_topaz" }
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "bm:blocks/block_rose_quartz"
+        "all": "bioores:blocks/block_rose_quartz"
     }
 }

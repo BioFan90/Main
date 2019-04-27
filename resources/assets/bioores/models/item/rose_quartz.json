@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "bm:items/rose_quartz"
+        "layer0": "bioores:items/rose_quartz"
     }
 }

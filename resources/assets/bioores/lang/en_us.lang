@@ -10,7 +10,29 @@ item.ingot_adamantite.name=Adamantite Ingot
 item.ores_cobalt.name=Cobalt Ore
 item.ingot_cobalt.name=Cobalt Ingot
 
+item.ingot_copper.name=Copper Ingot
+item.ingot_bronze.name=Bronze Ingot
+item.ingot_nickel.name=Nickel Ingot
+
+item.sulfur.name=Sulfur
+item.dust_bronze.name=Bronze Dust
+
+item.amethyst.name=Amethyst
+item.garnet.name=Garnet
+item.onyx.name=Onyx
+item.ruby.name=Ruby
+item.saphire.name=Saphire
+
 //blocks
+tile.ore_tin.name=Tin Ore
+tile.block_tin.name=Tin Block
+
+tile.ore_copper.name=Copper Ore
+tile.block_copper.name=Copper Block
+
+tile.ore_nickel.name=Nickel Ore
+tile.block_nickel.name=Nickel Block
+
 tile.ore_adamantite.name=Adamantite Ore
 tile.block_adamantite.name=Adamantite Block
 
@@ -19,6 +41,9 @@ tile.block_cobalt.name=Cobalt Block
 
 tile.ore_gold_nether.name=Fiery Gold Ore
 tile.ore_coal_nether.name=Fiery Coal Ore
+
+tile.block_jade.name=Jade Block
+tile.block_malachite.name=Malachite Block
 
 //tools
 item.sword_adamantite.name=Adamantite Sword

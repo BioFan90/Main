@@ -1,6 +1,7 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "bm:items/boots_nickel"
-    }
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bioores:items/boots_nickel"
+  }
 }
