@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " I ",
+        "IRI",
+		" I "
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_tin"
+        },
+		"R":
+        {
+            "item": "minecraft:redstone"
+        }     		
+    },
+    
+    "result":
+    {
+        "item": "minecraft:compass",
+        "count": 1
+    }
+}

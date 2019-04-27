@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "I ",
+        " I"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_tin"
+        }     
+    },
+    
+    "result":
+    {
+        "item": "minecraft:bucket",
+        "count": 1
+    }
+}
