@@ -29,9 +29,6 @@ public class ModItems
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
-	//Tin
-	public static final Item INGOT_TIN = new ItemBase ("ingot_tin");
-	
 	//Copper
 	public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial("material_copper", 1, 150, 4f, 1f, 5);
 	public static final ArmorMaterial ARMOR_MATERIAL_COPPER = EnumHelper.addArmorMaterial("armor_material_copper", Reference.MOD_ID + ":copper", 7,
@@ -48,6 +45,9 @@ public class ModItems
 	public static final Item COPPER_CHESTPLATE = new ArmorBase("chestplate_copper", ARMOR_MATERIAL_COPPER, 1, EntityEquipmentSlot.CHEST);
 	public static final Item COPPER_LEGGINGS = new ArmorBase("leggings_copper", ARMOR_MATERIAL_COPPER, 2, EntityEquipmentSlot.LEGS);
 	public static final Item COPPER_BOOTS = new ArmorBase("boots_copper", ARMOR_MATERIAL_COPPER, 1, EntityEquipmentSlot.FEET);
+	
+	//Tin
+	public static final Item INGOT_TIN = new ItemBase ("ingot_tin");
 	
 	//Nickel
 	public static final ToolMaterial MATERIAL_NICKEL = EnumHelper.addToolMaterial("material_nickel", 1, 200, 5f, 1f, 5);
@@ -89,7 +89,7 @@ public class ModItems
 	public static final ArmorMaterial ARMOR_MATERIAL_PLATINUM = EnumHelper.addArmorMaterial("armor_material_platinum", Reference.MOD_ID + ":platinum", 7,
 			new int[] {1,3,5,2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0f);
 	
-	public static final Item INGOT_PLATINUM = new ItemBase ("ingot_silver");
+	public static final Item INGOT_PLATINUM = new ItemBase ("ingot_platinum");
 	
 	public static final ItemSword PLATINUM_SWORD = new ToolSword("sword_platinum", MATERIAL_PLATINUM);
 	public static final ItemPickaxe PLATINUM_PICKAXE = new ToolPickaxe("pickaxe_platinum", MATERIAL_PLATINUM);
@@ -118,6 +118,11 @@ public class ModItems
 	public static final Item BRONZE_CHESTPLATE = new ArmorBase("chestplate_bronze", ARMOR_MATERIAL_BRONZE, 1, EntityEquipmentSlot.CHEST);
 	public static final Item BRONZE_LEGGINGS = new ArmorBase("leggings_bronze", ARMOR_MATERIAL_BRONZE, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BRONZE_BOOTS = new ArmorBase("boots_bronze", ARMOR_MATERIAL_BRONZE, 1, EntityEquipmentSlot.FEET);
+	
+	//Steel
+	public static final ToolMaterial MATERIAL_STEEL = EnumHelper.addToolMaterial("material_steel", 2, 300, 7f, 2f, 14);
+	public static final ArmorMaterial ARMOR_MATERIAL_STEEL = EnumHelper.addArmorMaterial("armor_material_steel", Reference.MOD_ID + ":steel", 20,
+			new int[] {2,5,6,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f);
 
 	//Vulcanite
 	public static final ToolMaterial MATERIAL_VULCANITE = EnumHelper.addToolMaterial("material_vulcanite", 2, 450, 7f, 2f, 18);
@@ -176,18 +181,30 @@ public class ModItems
 	public static final Item ADAMANTITE_BOOTS = new ArmorBase("boots_adamantite", ARMOR_MATERIAL_ADAMANTITE, 1, EntityEquipmentSlot.FEET);
 	
 	//Mythril
-	public static final ToolMaterial MATERIAL_MYTHRIL = EnumHelper.addToolMaterial("material_nickel", 3, 200, 5f, 1f, 5);
-	public static final ArmorMaterial ARMOR_MATERIAL_MYTHRIL = EnumHelper.addArmorMaterial("armor_material_nickel", Reference.MOD_ID + ":nickel", 10,
+	public static final Item ORES_MYTHRIL = new ItemBase ("ores_mythril");
+	public static final Item INGOT_MYTHRIL = new ItemBase ("ingot_mythril");
+	
+	public static final ToolMaterial MATERIAL_MYTHRIL = EnumHelper.addToolMaterial("material_mythril", 3, 200, 5f, 1f, 5);
+	public static final ArmorMaterial ARMOR_MATERIAL_MYTHRIL = EnumHelper.addArmorMaterial("armor_material_mythril", Reference.MOD_ID + ":nickel", 10,
 			new int[] {2,5,6,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0f);
 	
 	
 	//Palladium
-	public static final ToolMaterial MATERIAL_PALLADIUM = EnumHelper.addToolMaterial("material_nickel", 3, 200, 5f, 1f, 5);
-	public static final ArmorMaterial ARMOR_MATERIAL_PALLADIUM = EnumHelper.addArmorMaterial("armor_material_nickel", Reference.MOD_ID + ":nickel", 10,
+	public static final Item ORES_PALLADIUM = new ItemBase ("ores_palladium");
+	public static final Item INGOT_PALLADIUM = new ItemBase ("ingot_palladium");
+	
+	public static final ToolMaterial MATERIAL_PALLADIUM = EnumHelper.addToolMaterial("material_palladium", 3, 200, 5f, 1f, 5);
+	public static final ArmorMaterial ARMOR_MATERIAL_PALLADIUM = EnumHelper.addArmorMaterial("armor_material_palladium", Reference.MOD_ID + ":nickel", 10,
 			new int[] {2,5,6,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0f);
 	
 	
 	//Galaxy
+	public static final Item ORES_GALAXY = new ItemBase ("ores_galaxy");
+	public static final Item INGOT_GALAXY = new ItemBase ("ingot_galaxy");
+	
+	public static final ToolMaterial MATERIAL_GALAXY = EnumHelper.addToolMaterial("material_palladium", 3, 200, 5f, 1f, 5);
+	public static final ArmorMaterial ARMOR_MATERIAL_GALAXY = EnumHelper.addArmorMaterial("armor_material_palladium", Reference.MOD_ID + ":nickel", 10,
+			new int[] {2,5,6,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0f);
 
 	//Miscellaneous
 	public static final Item SULFUR = new ItemBase ("sulfur");
@@ -202,7 +219,7 @@ public class ModItems
 	public static final Item GEM_ROSE_QUARTZ = new ItemBase ("rose_quartz");
 	public static final Item GEM_GARNET = new ItemBase ("garnet");
 	public static final Item GEM_MALACHITE = new ItemBase ("malachite");
-	public static final Item GEM_YELLOW_DIAMOND = new ItemBase ("yellow-Diamond");
+	public static final Item GEM_YELLOW_DIAMOND = new ItemBase ("yellow_diamond");
 	public static final Item GEM_PERIDOT = new ItemBase ("peridot");
 	
 

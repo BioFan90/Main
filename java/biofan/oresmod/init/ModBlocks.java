@@ -9,8 +9,13 @@ import biofan.oresmod.blocks.BlockMetal;
 import biofan.oresmod.blocks.BlockBase;
 import biofan.oresmod.blocks.OreCoal;
 import biofan.oresmod.blocks.OreCobalt;
+import biofan.oresmod.blocks.OreGalaxy;
 import biofan.oresmod.blocks.OreGarnet;
+import biofan.oresmod.blocks.OreJade;
+import biofan.oresmod.blocks.OreMythril;
 import biofan.oresmod.blocks.OreOnyx;
+import biofan.oresmod.blocks.OrePalladium;
+import biofan.oresmod.blocks.OrePhospholite;
 import biofan.oresmod.blocks.OreRuby;
 import biofan.oresmod.blocks.OreSaphire;
 import biofan.oresmod.blocks.ToolIronOre;
@@ -78,13 +83,14 @@ public class ModBlocks
 	public static final Block ORE_MALACHITE = new ToolIronOre("ore_malachite", Material.IRON);
 	public static final Block ORE_YELLOW_DIAMOND = new ToolIronOre("ore_yellow_diamond", Material.IRON);
 	public static final Block ORE_PERIDOT = new ToolIronOre("ore_peridot", Material.IRON);
-	public static final Block ORE_MYTHRIL = new OreAmethyst("ore_mythril", Material.IRON);
+	public static final Block ORE_MYTHRIL = new OreMythril("ore_mythril", Material.IRON);
 	
 	//end ores
 	public static final Block ORE_AMETHYST = new OreAmethyst("ore_amethyst", Material.IRON);
-	public static final Block ORE_JADE = new OreAmethyst("ore_jade", Material.IRON);
-	public static final Block ORE_PHOSPHOLITE = new OreAmethyst("ore_phospholite", Material.IRON);
-	public static final Block ORE_PALLADIUM = new OreAmethyst("ore_palladium", Material.IRON);
+	public static final Block ORE_JADE = new OreJade("ore_jade", Material.IRON);
+	public static final Block ORE_PHOSPHOLITE = new OrePhospholite("ore_phospholite", Material.IRON);
+	public static final Block ORE_PALLADIUM = new OrePalladium("ore_palladium", Material.IRON);
+	public static final Block ORE_GALAXY = new OreGalaxy("ore_palladium", Material.IRON);
 	
 
 }

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SC"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "bioores:sulfur"
+        },
+        
+        "C":
+        {
+            "item": "minecraft:coal",
+            "data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "minecraft:gunpowder",
+        "data": 0,
+        "count": 2
+    }
+}

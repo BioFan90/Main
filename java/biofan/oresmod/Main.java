@@ -25,8 +25,8 @@ public class Main
 	public static Main instance;
 	//refer to main class by using the Main instance
 	
-	public static final CreativeTabs biotooltab = new BioWeaponTab("biotooltab");
 	public static final CreativeTabs bioblocktab = new BioBlockTab("bioblocktab");
+	public static final CreativeTabs biotooltab = new BioWeaponTab("biotooltab");
 	public static final CreativeTabs biomisctab = new BioMiscTab("biomisctab");
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)

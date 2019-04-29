@@ -27,7 +27,8 @@
     
     "result":
     {
-        "item": "minecraft:tripwire",
+        "item": "minecraft:tripwire_hook",
+        "data": 0,
         "count": 2
     }
 }
