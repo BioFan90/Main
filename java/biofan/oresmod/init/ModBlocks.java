@@ -90,7 +90,7 @@ public class ModBlocks
 	public static final Block ORE_JADE = new OreJade("ore_jade", Material.IRON);
 	public static final Block ORE_PHOSPHOLITE = new OrePhospholite("ore_phospholite", Material.IRON);
 	public static final Block ORE_PALLADIUM = new OrePalladium("ore_palladium", Material.IRON);
-	public static final Block ORE_GALAXY = new OreGalaxy("ore_palladium", Material.IRON);
+	public static final Block ORE_GALAXY = new OreGalaxy("ore_galaxy", Material.IRON);
 	
 
 }
