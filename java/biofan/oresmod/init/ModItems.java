@@ -123,6 +123,8 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_STEEL = EnumHelper.addToolMaterial("material_steel", 2, 300, 7f, 2f, 14);
 	public static final ArmorMaterial ARMOR_MATERIAL_STEEL = EnumHelper.addArmorMaterial("armor_material_steel", Reference.MOD_ID + ":steel", 20,
 			new int[] {2,5,6,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f);
+	
+	public static final Item INGOT_STEEL = new ItemBase ("ingot_steel");
 
 	//Vulcanite
 	public static final ToolMaterial MATERIAL_VULCANITE = EnumHelper.addToolMaterial("material_vulcanite", 2, 450, 7f, 2f, 18);

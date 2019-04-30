@@ -33,12 +33,14 @@ public class ModBlocks
 	public static final Block BLOCK_COPPER = new BlockMetal("block_copper", Material.IRON);
 	public static final Block BLOCK_TIN = new BlockMetal("block_tin", Material.IRON);
 	public static final Block BLOCK_NICKEL = new BlockMetal("block_nickel", Material.IRON);
+	public static final Block BLOCK_SULFUR = new BlockMetal("block_sulfur", Material.IRON);
 	
 	public static final Block BLOCK_SILVER = new BlockMetal("block_silver", Material.IRON);
 	public static final Block BLOCK_PLATINUM = new BlockMetal("block_platinum", Material.IRON);
 	public static final Block BLOCK_STEEL = new BlockMetal("block_steel", Material.IRON);
 	public static final Block BLOCK_BRONZE = new BlockMetal("block_bronze", Material.IRON);
 	public static final Block BLOCK_VULCANITE = new BlockMetal("block_vulcanite", Material.IRON);
+	
 	
 	public static final Block BLOCK_RUBY = new BlockMetal("block_ruby", Material.IRON);
 	public static final Block BLOCK_SAPHIRE = new BlockMetal("block_saphire", Material.IRON);
@@ -63,8 +65,8 @@ public class ModBlocks
 	public static final Block ORE_COPPER = new ToolWoodOre("ore_copper", Material.IRON);
 	public static final Block ORE_TIN = new ToolWoodOre("ore_tin", Material.IRON);
 	public static final Block ORE_NICKEL = new ToolWoodOre("ore_nickel", Material.IRON);
-	public static final Block ORE_SILVER = new ToolWoodOre("ore_silver", Material.IRON);
-	public static final Block ORE_PLATINUM = new BlockMetal("ore_platinum", Material.IRON);
+	public static final Block ORE_SILVER = new ToolIronOre("ore_silver", Material.IRON);
+	public static final Block ORE_PLATINUM = new ToolIronOre("ore_platinum", Material.IRON);
 	public static final Block ORE_RUBY = new OreRuby("ore_ruby", Material.IRON);
 	public static final Block ORE_SAPHIRE = new OreSaphire("ore_saphire", Material.IRON);
 	public static final Block ORE_COBALT = new OreCobalt("ore_cobalt", Material.IRON);

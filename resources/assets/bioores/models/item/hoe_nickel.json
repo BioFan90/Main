@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
+    "parent": "item/handheld",
     "textures": {
-        "layer0": "bm:items/hoe_nickel"
+        "layer0": "bioores:items/hoe_nickel"
     }
 }
