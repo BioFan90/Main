@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "II ",
+        "IS ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_vulcanite"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }        
+    },
+    
+    "result":
+    {
+        "item": "bioores:axe_vulcanite",
+        "count": 1
+    }
+}

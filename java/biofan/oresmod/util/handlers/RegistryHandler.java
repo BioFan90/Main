@@ -2,6 +2,7 @@ package biofan.oresmod.util.handlers;
 
 import biofan.oresmod.init.ModBlocks;
 import biofan.oresmod.init.ModItems;
+import biofan.oresmod.util.compat.OreDictionaryCompat;
 import biofan.oresmod.util.interfaces.IHasModel;
 import biofan.oresmod.world.ModWorldGen;
 import net.minecraft.block.Block;
@@ -45,6 +46,11 @@ public class RegistryHandler
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void initRegistries()
+	{
+		OreDictionaryCompat.registerOres();
 	}
 	
 	public static void otherRegistries()

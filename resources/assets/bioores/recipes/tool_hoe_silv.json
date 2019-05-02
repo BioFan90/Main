@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "II",
+        " S",
+        " S"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_silver"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }        
+    },
+    
+    "result":
+    {
+        "item": "bioores:hoe_silver",
+        "count": 1
+    }
+}

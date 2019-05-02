@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_vulcanite"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:ingot_vulcanite",
+        "count": 9
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "I I"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_bronze"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:helmet_bronze",
+        "count": 1
+    }
+}

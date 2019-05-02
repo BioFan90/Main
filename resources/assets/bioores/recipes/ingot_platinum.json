@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_platinum"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:ingot_platinum",
+        "count": 9
+    }
+}
