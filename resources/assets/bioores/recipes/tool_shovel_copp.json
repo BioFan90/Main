@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "I",
+        "S",
+        "S"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bioores:ingot_platinum"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }        
+    },
+    
+    "result":
+    {
+        "item": "bioores:shovel_platinum",
+        "count": 1
+    }
+}
