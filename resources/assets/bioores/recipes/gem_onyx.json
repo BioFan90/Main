@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_onyx"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:onyx",
+        "count": 9
+    }
+}

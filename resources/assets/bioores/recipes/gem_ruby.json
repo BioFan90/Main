@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_ruby"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:ruby",
+        "count": 9
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_jade"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:jade",
+        "count": 9
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_saphire"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:saphire",
+        "count": 9
+    }
+}

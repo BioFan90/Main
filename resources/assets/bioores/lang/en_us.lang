@@ -33,17 +33,77 @@ tile.block_copper.name=Copper Block
 tile.ore_nickel.name=Nickel Ore
 tile.block_nickel.name=Nickel Block
 
-tile.ore_adamantite.name=Adamantite Ore
-tile.block_adamantite.name=Adamantite Block
+tile.ore_silver.name=Silver Ore
+tile.block_silver.name=Silver Block
+
+tile.ore_platinum.name=Platinum Ore
+tile.block_platinum.name=Platinum Block
+
+tile.block_steel.name=Steel Block
+
+tile.block_bronze.name=Bronze Block
+
+tile.block_vulcanite.name=Vulcanite Block
+
+tile.ore_ruby.name=Ruby Ore
+tile.block_ruby.name=Ruby Block
+
+tile.ore_saphire.name=Saphire Ore
+tile.block_saphire.name=Saphire Block
+
+tile.ore_amethyst.name=Amethyst Ore
+tile.block_amethyst.name=Amethyst Block
+
+tile.ore_ruby.name=Ruby Ore
+tile.block_ruby.name=Ruby Block
+
+tile.ore_jade.name=Jade Ore
+tile.block_jade.name=Jade Block
+
+tile.ore_phospholite.name=Phospholyte Ore
+tile.block_phospholite.name=Phospholyte Block
+
+tile.ore_onyx.name=Onyx Ore
+tile.block_onyx.name=Onyx Block
+
+tile.ore_rose_quartz.name=Rose Quartz Ore
+tile.block_rose_quartz.name=Rose Quartz Block
+
+tile.ore_garnet.name=Garnet Ore
+tile.block_garnet.name=Garnet Block
+
+tile.ore_malachite.name=Malachite Ore
+tile.block_malachite.name=Malachite Block
+
+tile.ore_yellow_diamond.name=Yellow Diamond Ore
+tile.block_yellow_diamond.name= Yelow Diamond Block
+
+tile.ore_peridot.name=Peridot Ore
+tile.block_peridot.name=Peridot Block
 
 tile.ore_cobalt.name=Cobalt Ore
 tile.block_cobalt.name=Cobalt Block
 
+tile.ore_adamantite.name=Adamantite Ore
+tile.block_adamantite.name=Adamantite Block
+
+
+tile.ore_mythril.name=Mythril Ore
+tile.block_mythril.name=Mythril Block
+
+
+tile.ore_palladium.name=Palladium Ore
+tile.block_palladium.name=Palladium Block
+
+
+tile.ore_galaxy.name=Galaxy Ore
+tile.block_galaxy.name=Galaxy Block
+
 tile.ore_gold_nether.name=Fiery Gold Ore
 tile.ore_coal_nether.name=Fiery Coal Ore
 
-tile.block_jade.name=Jade Block
-tile.block_malachite.name=Malachite Block
+tile.ore_sulfur.name=Sulfur Ore
+tile.block_sulfur.name=Sulfur Block
 
 //tools
 item.sword_adamantite.name=Adamantite Sword

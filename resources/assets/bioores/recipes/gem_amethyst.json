@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bioores:block_amethyst"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bioores:amethyst",
+        "count": 9
+    }
+}
