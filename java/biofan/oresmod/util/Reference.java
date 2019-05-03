@@ -8,4 +8,6 @@ public class Reference
 	public static final String ACCEPTED_VERSION = "[1.12.2]";
 	public static final String CLIENT_PROXY_CLASS = "biofan.oresmod.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "biofan.oresmod.proxy.CommonProxy";
+	
+	public static final int GUI_COMBINATION_FURNACE = 0;
 }

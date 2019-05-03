@@ -1,7 +1,8 @@
-package biofan.oresmod.blocks;
+package biofan.oresmod.blocks.customores;
 
 import java.util.Random;
 
+import biofan.oresmod.blocks.BlockBase;
 import biofan.oresmod.init.ModItems;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

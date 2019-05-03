@@ -4,24 +4,49 @@ itemGroup.bioblocktab=Bio Blocks
 itemGroup.biomisctab=Bio Misc
 
 //items
-item.ores_adamantite.name=Adamantite Ore
-item.ingot_adamantite.name=Adamantite Ingot
+
+
+
+
+item.ingot_tin.name=Tin Ingot
+item.ingot_copper.name=Copper Ingot
+item.ingot_nickel.name=Nickel Ingot
+item.ingot_silver.name=Silver Ingot
+item.ingot_platinum.name=Platinum Ingot
+
+item.dust_bronze.name=Bronze Dust
+item.ingot_bronze.name=Bronze Ingot
+item.ingot_steel.name=Steel Ingot
+item.ingot_vulcanite.name=Vulcanite Ingot
+item.sulfur.name=Sulfur
+
+item.ruby.name=Ruby
+item.saphire.name=Saphire
+item.amethyst.name=Amethyst
+item.jade.name=Jade
+item.phospholite.name=Phospholyte
+item.onyx.name=Onyx
+item.rose_quartz.name=Rose Quartz
+item.garnet.name=Garnet
+item.malachite.name=Malachite
+item.yellow_diamond.name=Yellow Diamond
+item.peridot.name=Peridot
 
 item.ores_cobalt.name=Cobalt Ore
 item.ingot_cobalt.name=Cobalt Ingot
 
-item.ingot_copper.name=Copper Ingot
-item.ingot_bronze.name=Bronze Ingot
-item.ingot_nickel.name=Nickel Ingot
+item.ores_adamantite.name=Adamantite Ore
+item.ingot_adamantite.name=Adamantite Ingot
 
-item.sulfur.name=Sulfur
-item.dust_bronze.name=Bronze Dust
+item.ores_mythril.name=Mythril Ore
+item.ingot_mythril.name=Mythril Ingot
 
-item.amethyst.name=Amethyst
-item.garnet.name=Garnet
-item.onyx.name=Onyx
-item.ruby.name=Ruby
-item.saphire.name=Saphire
+item.ores_palladium.name=Palladium Ore
+item.ingot_palladium.name=Palladium Ingot
+
+item.ores_galaxy.name=Galaxy Ore
+item.ingot_palladium.name=Galaxy Ingot
+
 
 //blocks
 tile.ore_tin.name=Tin Ore
@@ -53,9 +78,6 @@ tile.block_saphire.name=Saphire Block
 
 tile.ore_amethyst.name=Amethyst Ore
 tile.block_amethyst.name=Amethyst Block
-
-tile.ore_ruby.name=Ruby Ore
-tile.block_ruby.name=Ruby Block
 
 tile.ore_jade.name=Jade Ore
 tile.block_jade.name=Jade Block
@@ -106,11 +128,23 @@ tile.ore_sulfur.name=Sulfur Ore
 tile.block_sulfur.name=Sulfur Block
 
 //tools
-item.sword_adamantite.name=Adamantite Sword
-item.shovel_adamantite.name=Adamantite Shovel
-item.pickaxe_adamantite.name=Adamantite Pickaxe
-item.axe_adamantite.name=Adamantite Axe
-item.hoe_adamantite.name=Adamantite Hoe
+item.sword_silver.name=Silver Sword
+item.shovel_silver.name=Silver Shovel
+item.pickaxe_silver.name=Silver Pickaxe
+item.axe_silver.name=Silver Axe
+item.hoe_silver.name=Silver Hoe
+
+item.sword_platinum.name=Platinum Sword
+item.shovel_platinum.name=Platinum Shovel
+item.pickaxe_platinum.name=Platinum Pickaxe
+item.axe_platinum.name=Platinum Axe
+item.hoe_platinum.name=Platinum Hoe
+
+item.sword_bronze.name=Bronze Sword
+item.shovel_bronze.name=Bronze Shovel
+item.pickaxe_bronze.name=Bronze Pickaxe
+item.axe_bronze.name=Bronze Axe
+item.hoe_bronze.name=Bronze Hoe
 
 item.sword_cobalt.name=Cobalt Sword
 item.shovel_cobalt.name=Cobalt Shovel
@@ -118,16 +152,34 @@ item.pickaxe_cobalt.name=Cobalt Pickaxe
 item.axe_cobalt.name=Cobalt Axe
 item.hoe_cobalt.name=Cobalt Hoe
 
+item.sword_adamantite.name=Adamantite Sword
+item.shovel_adamantite.name=Adamantite Shovel
+item.pickaxe_adamantite.name=Adamantite Pickaxe
+item.axe_adamantite.name=Adamantite Axe
+item.hoe_adamantite.name=Adamantite Hoe
+
 //armor
-item.helmet_adamantite.name=Adamantite Helmet
-item.chestplate_adamantite.name=Adamantite Chestplate
-item.leggings_adamantite.name=Adamantite Legggings
-item.boots_adamantite.name=Adamantite Boots
+item.helmet_silver.name=Silver Helmet
+item.chestplate_silver.name=Silver Chestplate
+item.leggings_silver.name=Silver Legggings
+item.boots_silver.name=Silver Boots
+
+item.helmet_platinum.name=Platinum Helmet
+item.chestplate_platinum.name=Platinum Chestplate
+item.leggings_platinum.name=Platinum Legggings
+item.boots_platinum.name=Platinum Boots
+
+item.helmet_bronze.name=Bronze Helmet
+item.chestplate_bronze.name=Bronze Chestplate
+item.leggings_bronze.name=Bronze Legggings
+item.boots_bronze.name=Bronze Boots
 
 item.helmet_cobalt.name=Cobalt Helmet
 item.chestplate_cobalt.name=Cobalt Chestplate
 item.leggings_cobalt.name=Cobalt Legggings
 item.boots_cobalt.name=Cobalt Boots
 
-//shields
-item.shield_adamantite.name=Adamantite Shield
+item.helmet_adamantite.name=Adamantite Helmet
+item.chestplate_adamantite.name=Adamantite Chestplate
+item.leggings_adamantite.name=Adamantite Legggings
+item.boots_adamantite.name=Adamantite Boots

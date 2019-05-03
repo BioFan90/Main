@@ -1,7 +1,8 @@
-package biofan.oresmod.blocks;
+package biofan.oresmod.blocks.customores;
 
 import java.util.Random;
 
+import biofan.oresmod.blocks.BlockBase;
 import biofan.oresmod.init.ModItems;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -9,10 +10,10 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
-public class OreAmethyst extends BlockBase
+public class OreOnyx extends BlockBase
 {
 
-	public OreAmethyst(String name, Material material) 
+	public OreOnyx(String name, Material material) 
 	{
 		super(name, material);
 		setSoundType(SoundType.STONE);
@@ -25,7 +26,7 @@ public class OreAmethyst extends BlockBase
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune)
 	{
-		return ModItems.GEM_AMETHYST;
+		return ModItems.GEM_ONYX;
 	}
 	
 	@Override

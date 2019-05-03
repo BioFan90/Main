@@ -1,5 +1,6 @@
-package biofan.oresmod.blocks;
+package biofan.oresmod.blocks.ores;
 
+import biofan.oresmod.blocks.BlockBase;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 

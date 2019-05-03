@@ -3,24 +3,25 @@ package biofan.oresmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import biofan.oresmod.blocks.OreAdamantite;
-import biofan.oresmod.blocks.OreAmethyst;
 import biofan.oresmod.blocks.BlockMetal;
 import biofan.oresmod.blocks.BlockBase;
-import biofan.oresmod.blocks.OreCoal;
-import biofan.oresmod.blocks.OreCobalt;
-import biofan.oresmod.blocks.OreGalaxy;
-import biofan.oresmod.blocks.OreGarnet;
-import biofan.oresmod.blocks.OreJade;
-import biofan.oresmod.blocks.OreMythril;
-import biofan.oresmod.blocks.OreOnyx;
-import biofan.oresmod.blocks.OrePalladium;
-import biofan.oresmod.blocks.OrePhospholite;
-import biofan.oresmod.blocks.OreRuby;
-import biofan.oresmod.blocks.OreSaphire;
-import biofan.oresmod.blocks.ToolIronOre;
-import biofan.oresmod.blocks.ToolStoneOre;
-import biofan.oresmod.blocks.ToolWoodOre;
+import biofan.oresmod.blocks.customores.OreAdamantite;
+import biofan.oresmod.blocks.customores.OreAmethyst;
+import biofan.oresmod.blocks.customores.OreCoal;
+import biofan.oresmod.blocks.customores.OreCobalt;
+import biofan.oresmod.blocks.customores.OreGalaxy;
+import biofan.oresmod.blocks.customores.OreGarnet;
+import biofan.oresmod.blocks.customores.OreJade;
+import biofan.oresmod.blocks.customores.OreMythril;
+import biofan.oresmod.blocks.customores.OreOnyx;
+import biofan.oresmod.blocks.customores.OrePalladium;
+import biofan.oresmod.blocks.customores.OrePhospholite;
+import biofan.oresmod.blocks.customores.OreRuby;
+import biofan.oresmod.blocks.customores.OreSaphire;
+import biofan.oresmod.blocks.machines.BlockCombinationFurnace;
+import biofan.oresmod.blocks.ores.ToolIronOre;
+import biofan.oresmod.blocks.ores.ToolStoneOre;
+import biofan.oresmod.blocks.ores.ToolWoodOre;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -28,6 +29,9 @@ import net.minecraft.item.Item;
 public class ModBlocks 
 {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
+	
+	//machines
+	public static final Block COMBINATION_FURNACE = new BlockCombinationFurnace ("combination_furnace");
 	
 	//Blocks
 	public static final Block BLOCK_COPPER = new BlockMetal("block_copper", Material.IRON);
