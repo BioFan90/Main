@@ -18,7 +18,6 @@ import biofan.oresmod.blocks.customores.OrePalladium;
 import biofan.oresmod.blocks.customores.OrePhospholite;
 import biofan.oresmod.blocks.customores.OreRuby;
 import biofan.oresmod.blocks.customores.OreSaphire;
-import biofan.oresmod.blocks.machines.BlockCombinationFurnace;
 import biofan.oresmod.blocks.ores.ToolIronOre;
 import biofan.oresmod.blocks.ores.ToolStoneOre;
 import biofan.oresmod.blocks.ores.ToolWoodOre;
@@ -31,7 +30,6 @@ public class ModBlocks
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//machines
-	public static final Block COMBINATION_FURNACE = new BlockCombinationFurnace ("combination_furnace");
 	
 	//Blocks
 	public static final Block BLOCK_COPPER = new BlockMetal("block_copper", Material.IRON);

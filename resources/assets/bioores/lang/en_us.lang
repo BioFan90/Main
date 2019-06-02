@@ -45,7 +45,7 @@ item.ores_palladium.name=Palladium Ore
 item.ingot_palladium.name=Palladium Ingot
 
 item.ores_galaxy.name=Galaxy Ore
-item.ingot_palladium.name=Galaxy Ingot
+item.ingot_galaxy.name=Galaxy Ingot
 
 
 //blocks
